@@ -6,7 +6,20 @@ html, body, #root {
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+.navbar-toggler-icon {
+  background-color: #848484; /* Your preferred color */
+  border-radius: 4px; /* Optional: Gives the icon rounded edges */
+}
 
+/* Hover effect for the hamburger icon */
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #a4a4a4;
+}
+
+/* Focused state when clicking the hamburger icon */
+.navbar-toggler:focus .navbar-toggler-icon {
+  background-color: #007bff;
+}
 
 @keyframes logo-spin {
   from {
